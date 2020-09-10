@@ -1,0 +1,11 @@
+.card-img-top{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    margin-left: -0.55px;
+}
+  div.col-2.h4.m-0 a{
+    color: black;
+  }
+  .card {
+    margin: 0 15px;
+  }
