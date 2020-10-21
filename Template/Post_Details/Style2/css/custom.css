@@ -1,0 +1,16 @@
+.curved {
+    position: absolute;
+    width: 100%;
+    background: #0099ff;
+    color: #FFF;
+    z-index: -1;
+  }
+  .curved svg {
+    display: block;
+  }
+  .hudai {
+    color: #0099ff;
+  }
+  .show {
+    display: block;
+  }
