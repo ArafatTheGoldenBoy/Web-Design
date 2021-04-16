@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta chatset="UTF-8" />
+		<title>CSS Progress Bar</title>
+		
+		<style>
+			.wrapper-progress-bar {
+				width: 50%;
+			}
+			
+			.progress-bar-green {
+				width: 100%;
+				background-color: white;
+                border-radius: 5px;
+                border: 1px solid yellowgreen;
+			}
+			
+            .progress-bar-red {
+				width: 100%;
+				background-color: white;
+				border-radius: 5px;
+				border: 1px solid darkorange;
+			}
+			.progress-bar-fill-green {
+				display: block;
+				height: 22px;
+				background-color: yellowgreen;
+				border-radius: 5px;
+				
+				transition: width 500ms ease-in-out;
+			}
+
+            .progress-bar-fill-red {
+				display: block;
+				height: 22px;
+				background-color: darkorange;
+				border-radius: 5px;
+				
+				transition: width 500ms ease-in-out;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+		<div class="wrapper-progress-bar">
+			<div class="progress-bar-green">
+				<span class="progress-bar-fill-green" style="width: 70%; color: white;">lol</span>
+			</div>
+		</div>
+<br>
+        <div class="wrapper-progress-bar">
+			<div class="progress-bar-red">
+				<span class="progress-bar-fill-red" style="width: 40%;"></span>
+			</div>
+		</div>
+	</body>
+</html>
